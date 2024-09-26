@@ -1,0 +1,25 @@
+#collection=single "variable" used to store multiple values 
+# List = [] ordered and changeable. Duplicates Ok 
+#Set= {}unordered and imutable , but add/remove OK . No du-plicates 
+#Tuple=() ordered amd unchangeble . Duplicates OK. Faster 
+
+Fruit= [ " apples", "oranges" ,"bannana","coconut"]
+print (dir (fruits))
+
+print(help(fruits))
+print (len (fruits))
+print (fruits[0] )
+print ("pineapple" in fruits)
+
+for x in fruits :
+print (x)
+
+fruits[1]="pineapple"
+#print (fruits [0])
+#for fruits.append ("pineapple")
+#for fuits . remove ("apple")
+#for fruits . insert (0,"pineapple")
+#fruits .reverse()
+#fruits.clear ()
+print(fruits)
+# for fruits in fruits;
