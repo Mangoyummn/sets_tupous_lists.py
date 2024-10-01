@@ -65,18 +65,89 @@
 # #loop through the list and print the friends name 
 # #see if the particular friend is in the list (boolean value)
 # #if the lists greater then 10 break the loop 
+# friends = ["natalie","Lucy","lily","natalia" ,"erik"]
+# print(friends)
+# friends.remove ("natalie")
+# friends.apprend ("areil",[3])
+# print (friends)
 
-friends = ["natalie","Lucy","lily","natalia" ,"erik"]
-print(friends)
-friends.remove ("natalie")
-friends.apprend ("areil",[3])
-print (friends )
+# if "Lucy" in friends :
+#     print ("Lucy is in list")
 
-if "Lucy" in friends :
-    print ("Lucy is in list")
+# for friends in friends :
+#  print(friends)
+#  print(len(friends))>10:
+#  break
+# print(friends)
 
-for friends in friends :
-    print(friends)
-    print(len(friends)) >10:
-    break
-  print(friends)
+
+
+
+
+
+
+# sets = {}
+# fruits={"apples","oranges","bananna","coconut"}
+# # print (dir(fruits))
+# # # print(help(fruits))
+# # # print(len(fruits))
+# # print("pineapple" in fruits)
+# # print(fruits[0]clear) 
+# # fruits.add ( "strawberry", "blueberry ")
+# print(fruits)
+
+# fruits.remove ("apple") # removes value from list 
+# fruits.pop()         # removes randoom value 
+# fruits.add ("pineaple") # adds a value 
+# fruits.clear()   # gets rid of  it all 
+
+
+
+# #Tupous
+# fruits=("apples","oranges","bananna","coconut")
+# # print (dir(fruits))
+# # # print(help(fruits))
+# # # print(len(fruits))
+# # print (fruits.index ("apples")) 
+# print (fruits.count.("coconut"))
+
+# #print(fruits)
+# for fruits in fruits:
+#     print(fruits)
+
+
+
+#dictionaries
+# dictionary= a collection of {key :value } pairs 
+#            ordered and changeable. no duplicates 
+capitals={"USA":"Washington DC", 
+          "India":"Delhi" ,
+          "China":"Beijing",
+          "Russia":"Moscow"}
+# print(dir(capitals))
+# # print(help(capitals))
+# # print(capitals.get("USA"))
+# if capitals.get ("China"):
+#     print ("That capital exist")
+# else:
+#     ("That capital doesn't exist")
+
+# capitals.update({"Germany":"Berlin", "Mexico":"mexico city"})
+
+# capitals.update({"USA":"Detriot"})
+#  capitals.pop("China")
+# capitals.popitem()
+# capitals.clear()
+# print(capitals)
+
+# keys+capitals.key()
+# for key in capital.keys:()
+# print(key)
+
+value=capitals.values()
+for value in capitals.values():
+ print(value)
+
+ items=capitals.items()
+ for key, value in capitals.items():
+print(f"{key}:{value}")
